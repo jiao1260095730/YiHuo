@@ -9,4 +9,6 @@ public interface UserMapper {
     int insertValidateNum(User user);
 
     int selectUserByUserNameAndPassword(User user);
+
+    int selectVerify(String email);
 }

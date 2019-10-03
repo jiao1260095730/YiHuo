@@ -9,4 +9,6 @@ public interface UserService {
     int validate(String email);
 
     boolean isLogin(User user);
+
+    int selectVerify(String email);
 }

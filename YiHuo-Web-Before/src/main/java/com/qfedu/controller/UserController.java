@@ -20,6 +20,19 @@ public class UserController {
     @Autowired
     UserService userService;
 
+
+    @RequestMapping(value = "/verify",method = RequestMethod.POST)
+    @ResponseBody
+    @ApiOperation(value = "该方法用来验证邮箱是否存在")
+    public String verify(String email) {
+        int count = userService.selectVerify(email);
+
+        if (count > 0) {
+            return "fail";
+        }
+        return "success";
+    }
+
     @ApiOperation(value = "该方法是用户注册时发送验证码并保存至数据库")
     @RequestMapping(value = "/validate", method = RequestMethod.POST)
     @ResponseBody

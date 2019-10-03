@@ -32,4 +32,8 @@ public class UserServiceImpl implements UserService {
         int result = userMapper.selectUserByUserNameAndPassword(user);
         return result == 1 ? true : false;
     }
+
+    public int selectVerify(String email) {
+        return userMapper.selectVerify(email);
+    }
 }
