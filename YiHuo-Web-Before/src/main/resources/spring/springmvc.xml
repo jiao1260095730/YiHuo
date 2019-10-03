@@ -40,4 +40,10 @@
         </mvc:interceptor>
     </mvc:interceptors>-->
 
+    <!--文档助手-->
+    <bean class="com.qfedu.controller.MySwaggerConfig" />
+    <mvc:resources mapping="swagger-ui.html" location="classpath:/META-INF/resources/" />
+    <mvc:resources mapping="/webjars/**"
+                   location="classpath:/META-INF/resources/webjars/" />
+
 </beans>
