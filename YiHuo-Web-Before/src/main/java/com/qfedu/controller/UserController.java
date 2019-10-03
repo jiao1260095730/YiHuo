@@ -57,7 +57,7 @@ public class UserController {
     public String isLogin(String email,String password) {
 
         User user = new User();
-        user.setUserName(email);
+        user.setEmail(email);
         user.setPassword(password);
 
         boolean result = userService.isLogin(user);
