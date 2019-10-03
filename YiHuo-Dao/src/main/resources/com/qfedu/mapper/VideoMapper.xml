@@ -4,5 +4,22 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.qfedu.mapper.VideoMapper">
 
+    <resultMap id="videoMap" type="com.qfedu.entry.Video" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="name" property="name" jdbcType="VARCHAR" />
+        <result column="create_time" property="createTime" jdbcType="VARCHAR" />
+        <result column="buy_num" property="buyNum" jdbcType="INTEGER" />
+        <result column="video_img_url" property="videoImgUrl" jdbcType="VARCHAR" />
+        <result column="video_url" property="videoUrl" jdbcType="VARCHAR" />
+        <result column="show_time" property="showTime" jdbcType="VARCHAR" />
+        <result column="teacher_id" property="teacherId" jdbcType="INTEGER" />
+        <result column="course_id" property="courseId" jdbcType="INTEGER" />
+        <result column="label_id" property="labelId" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <select id="selectAllVideo" resultMap="videoMap">
+        select * from video;
+    </select>
+
 
 </mapper>
