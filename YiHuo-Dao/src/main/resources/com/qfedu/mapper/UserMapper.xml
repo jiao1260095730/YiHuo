@@ -7,6 +7,7 @@
     <select id="register" parameterType="user" resultType="int">
         select * from user where phone = #{email} and validate_num = #{validateNum}
     </select>
+
     <select id="selectUserByUserNameAndPassword" resultType="java.lang.Integer" parameterType="user">
         select * from user where user_name = #{userName} and password = #{passWord}
     </select>
