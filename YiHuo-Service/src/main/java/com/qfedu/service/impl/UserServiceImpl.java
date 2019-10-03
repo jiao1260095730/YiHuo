@@ -29,7 +29,7 @@ public class UserServiceImpl implements UserService {
         String validateCode = MailUtils.getValidateCode(6);
         user.setValidateNum(validateCode);
         MailUtils.sendMail(email, "您好，您正在注册艺伙app，您的验证码是："
-                + validateCode + "请及时输入验证码", "艺伙app验证码");
+                + validateCode + "，请及时输入验证码", "艺伙app验证码");
         int count = userMapper.insertValidateNum(user);
         return count;
     }

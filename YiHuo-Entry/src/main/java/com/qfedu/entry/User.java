@@ -14,7 +14,7 @@ public class User {
     private String phone;
     private String headImgUrl;
     private String bgImgUrl;
-    private String passWord;
+    private String password;
     private String info;
     private String validateNum;
 

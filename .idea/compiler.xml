@@ -6,16 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="YiHuo-Entry" />
         <module name="YiHuoWebBefore" />
-        <module name="YiHuoUtils" />
-        <module name="YiHuoDao" />
-        <module name="YiHuo-Utils" />
-        <module name="YiHuo-Dao" />
         <module name="YiHuoEntry" />
-        <module name="YiHuo-Service" />
+        <module name="YiHuoUtils" />
         <module name="YiHuoService" />
-        <module name="YiHuo-Web-Before" />
+        <module name="YiHuoDao" />
       </profile>
     </annotationProcessing>
   </component>

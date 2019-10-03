@@ -11,6 +11,9 @@
     <select id="selectUserByUserNameAndPassword" resultType="java.lang.Integer" parameterType="user">
         select count(1) from user where email = #{email} and password = #{passWord}
     </select>
+    <update id="register" parameterType="user">
+        update user set password=#{password} where email = #{email} and validate_num=#{validateNum}
+    </update>
 
     <insert id="insertValidateNum" parameterType="user">
         insert into user (email, validate_num) values (#{email}, #{validateNum})
