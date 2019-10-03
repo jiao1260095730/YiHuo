@@ -7,9 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf02f2aa-9eee-4697-8d6e-8813543b1281" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YiHuo-Dao/src/main/resources/com/qfedu/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/YiHuo-Dao/src/main/resources/com/qfedu/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YiHuo-Dao/target/classes/com/qfedu/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/YiHuo-Dao/target/classes/com/qfedu/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/VideoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/impl/VideoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/MySwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/MySwaggerConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,11 +74,53 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="60" column="35" lean-forward="true" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+            <state relative-caret-position="513">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/MySwaggerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/VideoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/VideoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/impl/VideoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,52 +137,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/YiHuo-Entry/src/main/java/com/qfedu/entry/Label.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/YiHuo-Entry/src/main/java/com/qfedu/entry/Type.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/YiHuo-Entry/src/main/java/com/qfedu/entry/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/YiHuo-Entry/src/main/java/com/qfedu/entry/Video.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -171,8 +175,12 @@
         <option value="$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/UserService.java" />
         <option value="$PROJECT_DIR$/YiHuo-Dao/src/main/java/com/qfedu/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/UserController.java" />
         <option value="$PROJECT_DIR$/YiHuo-Dao/src/main/resources/com/qfedu/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/MySwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/VideoController.java" />
+        <option value="$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/VideoService.java" />
+        <option value="$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/impl/VideoServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -458,7 +466,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VideoProBigPlus" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/YiHuo-Dao/src/main/resources/com/qfedu/mapper" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -720,15 +728,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570088615326</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="焦斌-提交第八次，基本完善注册、登录功能">
+      <created>1570089251995</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1570089251995</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19212000" />
+    <option name="totallyTimeSpent" value="20742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19530201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -780,7 +794,8 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;YiHuo-Web-Before/src/main/java/com/qfedu/controller/UserController.java" />
     <MESSAGE value="焦斌-提交第六次，修改部分页面" />
     <MESSAGE value="焦斌-提交第七次，修改部分页面，完善部分语句" />
-    <option name="LAST_COMMIT_MESSAGE" value="焦斌-提交第七次，修改部分页面，完善部分语句" />
+    <MESSAGE value="焦斌-提交第八次，基本完善注册、登录功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="焦斌-提交第八次，基本完善注册、登录功能" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/YiHuo-Dao/src/main/resources/mapper/UserMapper.xml" />
@@ -870,13 +885,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/test/java/TestRegister.java" />
-    <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/MySwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/YiHuo-Dao/src/main/resources/spring/applicationContext-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
@@ -964,13 +972,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -999,8 +1000,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="60" column="35" lean-forward="true" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+        <state relative-caret-position="513">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/MySwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/VideoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/impl/VideoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
