@@ -4,8 +4,14 @@ import com.qfedu.entry.User;
 import com.qfedu.mapper.UserMapper;
 import com.qfedu.service.UserService;
 import com.qfedu.utils.MailUtils;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiImplicitParams;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @Service
 public class UserServiceImpl implements UserService {
@@ -27,4 +33,11 @@ public class UserServiceImpl implements UserService {
         int count = userMapper.insertValidateNum(user);
         return count;
     }
+
+    public boolean isLogin(User user) {
+        int result = userMapper.selectUserByUserNameAndPassword(user);
+        return result == 1 ? true : false;
+    }
+
+
 }

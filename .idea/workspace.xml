@@ -7,16 +7,93 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf02f2aa-9eee-4697-8d6e-8813543b1281" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/YiHuo-Dao/target/classes/com/qfedu/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Dao/target/classes/com/qfedu/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Dao/target/classes/dbconfig/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Dao/target/classes/info.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Dao/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Dao/target/classes/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Entry/target/classes/com/qfedu/entry/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Service/target/classes/com/qfedu/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Service/target/classes/com/qfedu/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Service/target/classes/com/qfedu/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Service/target/classes/com/qfedu/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Service/target/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Utils/target/classes/com/qfedu/utils/MailUtils$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Utils/target/classes/com/qfedu/utils/MailUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/MySwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/controller/MySwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/classes/info.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/classes/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/YiHuo-Dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/YiHuo-Entry-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/YiHuo-Service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/YiHuo-Utils-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.6.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.8.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/guava-20.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.16.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/mail-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/mapstruct-1.2.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/maven-builder-support-3.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-5.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/spring-plugin-metadata-1.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/springfox-core-2.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/springfox-schema-2.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/springfox-spi-2.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/springfox-spring-web-2.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/springfox-swagger-common-2.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/springfox-swagger-ui-2.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/springfox-swagger2-2.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/swagger-annotations-1.5.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/lib/swagger-models-1.5.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/YiHuo-Web-Before-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/classes/com/qfedu/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/classes/com/qfedu/controller/MySwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/classes/com/qfedu/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/classes/info.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YiHuo-Web-Before/target/classes/spring/springmvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YiHuo-Dao/src/main/resources/com/qfedu/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/YiHuo-Dao/src/main/resources/com/qfedu/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YiHuo-Dao/src/main/resources/dbconfig/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/YiHuo-Dao/src/main/resources/dbconfig/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/AdminService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/impl/AdminServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/UserController.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/YiHuo-Dao/target/" />
-    <ignored path="$PROJECT_DIR$/YiHuo-Entry/target/" />
-    <ignored path="$PROJECT_DIR$/YiHuo-Service/target/" />
-    <ignored path="$PROJECT_DIR$/YiHuo-Web-Before/target/" />
-    <ignored path="$PROJECT_DIR$/YiHuo-Utils/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,54 +108,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/AdminController.java">
+        <entry file="file://$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="163">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/YiHuo-Dao/src/main/resources/dbconfig/db.properties">
+        <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="783">
+              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/resources/spring/springmvc.xml">
+        <entry file="file://$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1269">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/YiHuo-Dao/src/main/resources/com/qfedu/mapper/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="270">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="spring-beans.schema" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,28 +142,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/YiHuo-Entry/pom.xml" />
-        <option value="$PROJECT_DIR$/YiHuo-Service/pom.xml" />
-        <option value="$PROJECT_DIR$/YiHuo-Utils/pom.xml" />
-        <option value="$PROJECT_DIR$/YiHuo-Web-Before/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/impl/UserService.java" />
-        <option value="$PROJECT_DIR$/YiHuo-Dao/src/main/java/com/qfedu/mapper/impl/UserMapperImpl.java" />
-        <option value="$PROJECT_DIR$/YiHuo-Web-Before/pom.xml" />
-        <option value="$PROJECT_DIR$/YiHuo-Utils/src/main/java/com/qfedu/utils/ValidateNum.java" />
-        <option value="$PROJECT_DIR$/YiHuo-Utils/src/main/java/com/qfedu/utils/CreateValidate.java" />
         <option value="$PROJECT_DIR$/YiHuo-Dao/src/main/java/com/qfedu/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/YiHuo-Dao/pom.xml" />
-        <option value="$PROJECT_DIR$/YiHuo-Entry/src/main/java/com/qfedu/entry/User.java" />
-        <option value="$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/UserService.java" />
-        <option value="$PROJECT_DIR$/YiHuo-Utils/src/main/java/com/qfedu/utils/MailUtils.java" />
-        <option value="$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/MySwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/YiHuo-Web-Before/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/YiHuo-Dao/src/main/resources/com/qfedu/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/YiHuo-Dao/src/main/resources/dbconfig/db.properties" />
+        <option value="$PROJECT_DIR$/YiHuo-Dao/src/main/resources/com/qfedu/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/UserService.java" />
+        <option value="$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/impl/UserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -120,19 +161,6 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/tools/apache-maven-3.5.2" />
-        <option name="userSettingsFile" value="D:\tools\apache-maven-3.5.2\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -442,35 +470,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VideoProBigPlus" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.17110266" />
-    <property name="project.structure.side.proportion" value="0.22183909" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\QFJava\ThirdStage\project\YiHuo\YiHuo-Dao\src\main\resources\com\qfedu" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.qfedu.controller" />
-      <recent name="com.qfedu.utils" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\QFJava\ThirdStage\project\YiHuo\YiHuo-Web-Before\src\main\resources" />
-      <recent name="D:\QFJava\ThirdStage\project\YiHuo\YiHuo-Service\src\main\resources" />
-      <recent name="D:\QFJava\ThirdStage\project\YiHuo\YiHuo-Dao\src\main\resources" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -484,20 +483,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.41">
-    <configuration name="CreateValidate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qfedu.utils.CreateValidate" />
-      <module name="YiHuoUtils" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qfedu.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Tomcat 8.5.41" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/YiHuo/" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -510,7 +496,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_YiHuo" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_YiHuo_3" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -518,10 +504,10 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="54238" />
+        <option name="DEBUG_PORT" value="57167" />
       </RunnerSettings>
       <RunnerSettings RunnerId="JRebel Debug">
-        <option name="DEBUG_PORT" value="54239" />
+        <option name="DEBUG_PORT" value="57168" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -605,66 +591,26 @@
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.CreateValidate" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.41" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.CreateValidate" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="bf02f2aa-9eee-4697-8d6e-8813543b1281" name="Default Changelist" comment="" />
-      <created>1569824057812</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1569824057812</updated>
-      <workItem from="1569824059284" duration="2967000" />
-      <workItem from="1570064839127" duration="7255000" />
-    </task>
-    <task id="LOCAL-00001" summary="第一次上传SSM框架">
-      <created>1569825699688</created>
+    <task id="LOCAL-00001" summary="登录功能简单实现  周立雄第一次上传&#10;备注：利用email和password登录，未添加session">
+      <created>1570085300512</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1569825699688</updated>
+      <updated>1570085300512</updated>
     </task>
-    <task id="LOCAL-00002" summary="第二次上传&#10;注册页面实现，手机验证码登陆">
-      <created>1570069462800</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1570069462800</updated>
-    </task>
-    <task id="LOCAL-00003" summary="第二次上传&#10;注册页面实现，手机验证码登陆">
-      <created>1570069703118</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1570069703118</updated>
-    </task>
-    <task id="LOCAL-00004" summary="周立雄&#10;简单实现登录功能（邮箱+密码）未添加session">
-      <created>1570082098611</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1570082098611</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14076000" />
+    <option name="totallyTimeSpent" value="4124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -687,12 +633,12 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.59371614" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32954547" />
       <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="JRebel Executor" order="15" sideWeight="0.49946696" weight="0.8764897" />
+      <window_info active="true" anchor="bottom" id="JRebel Executor" order="15" sideWeight="0.49946696" visible="true" weight="0.59371614" />
       <window_info anchor="bottom" id="Messages" order="16" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -742,139 +688,27 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout-to-restore>
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="第一次上传SSM框架" />
-    <MESSAGE value="第二次上传&#10;注册页面实现，手机验证码登陆" />
-    <MESSAGE value="周立雄&#10;简单实现登录功能（邮箱+密码）未添加session" />
-    <option name="LAST_COMMIT_MESSAGE" value="周立雄&#10;简单实现登录功能（邮箱+密码）未添加session" />
+    <MESSAGE value="登录功能简单实现  周立雄第一次上传&#10;备注：利用email和password登录，未添加session" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录功能简单实现  周立雄第一次上传&#10;备注：利用email和password登录，未添加session" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/YiHuo-Dao/src/main/resources/mapper/UserMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/YiHuo-Dao/src/main/resources/info.properties">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="-6723" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/impl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Dao/src/main/resources/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/resources/spring/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" selection-start-line="17" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/qfedu/Video-Service/1.0-SNAPSHOT/Video-Service-1.0-SNAPSHOT.jar!/com/qfedu/service/impl/UserServiceImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Dao/src/main/java/com/qfedu/mapper/impl/UserMapperImpl.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/qfedu/Video-Service/1.0-SNAPSHOT/Video-Service-1.0-SNAPSHOT.jar!/com/qfedu/service/UserService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Utils/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2632">
-          <caret line="178" column="33" selection-start-line="178" selection-start-column="33" selection-end-line="178" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Entry/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Utils/src/main/java/com/qfedu/utils/CreateValidate.java" />
-    <entry file="file://$PROJECT_DIR$/YiHuo-Dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Dao/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="32" column="62" lean-forward="true" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
-          <folding>
-            <element signature="e#865#881#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Utils/src/main/java/com/qfedu/utils/MailUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="86" column="65" selection-start-line="86" selection-start-column="65" selection-end-line="86" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Dao/src/main/java/com/qfedu/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="1269">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
@@ -885,170 +719,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/pom.xml">
+    <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="88" column="20" lean-forward="true" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/MySwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="378">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/impl/AdminServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Entry/src/main/java/com/qfedu/entry/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Dao/src/main/resources/com/qfedu/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YiHuo-Dao/src/main/resources/dbconfig/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/AdminController.java">
+    <entry file="file://$PROJECT_DIR$/YiHuo-Dao/src/main/java/com/qfedu/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>YiHuoWebBefore:Web exploded</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.22183909" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>YiHuoUtils</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.22183909" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/YiHuo-Dao/src/main/resources/com/qfedu/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YiHuo-Service/src/main/java/com/qfedu/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
