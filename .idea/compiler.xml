@@ -7,9 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="YiHuoWebBefore" />
-        <module name="YiHuoService" />
         <module name="YiHuoEntry" />
         <module name="YiHuoUtils" />
+        <module name="YiHuoService" />
         <module name="YiHuoDao" />
       </profile>
     </annotationProcessing>
