@@ -7,4 +7,6 @@ public interface UserService {
     int register(User user);
 
     int validate(String email);
+
+    boolean isLogin(User user);
 }

@@ -27,4 +27,9 @@ public class UserServiceImpl implements UserService {
         int count = userMapper.insertValidateNum(user);
         return count;
     }
+
+    public boolean isLogin(User user) {
+        int result = userMapper.selectUserByUserNameAndPassword(user);
+        return result == 1 ? true : false;
+    }
 }

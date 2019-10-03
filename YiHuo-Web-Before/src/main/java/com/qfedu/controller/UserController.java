@@ -47,4 +47,26 @@ public class UserController {
         return "fail";
     }
 
+    @RequestMapping(value = "isLogin",method = RequestMethod.POST)
+    @ResponseBody
+    @ApiOperation(value = "验证用户名email和密码password登陆")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "email",value = "邮箱",required = true,dataType = "String"),
+            @ApiImplicitParam(name = "password",value = "密码",required = true,dataType = "String")
+    })
+    public String isLogin(String email,String password) {
+
+        User user = new User();
+        user.setUserName(email);
+        user.setPassword(password);
+
+        boolean result = userService.isLogin(user);
+
+        if (result) {
+            return "success";
+        } else {
+            return "fail";
+        }
+    }
+
 }

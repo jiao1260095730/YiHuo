@@ -7,4 +7,6 @@ public interface UserMapper {
     int register(User user);
 
     int insertValidateNum(User user);
+
+    int selectUserByUserNameAndPassword(User user);
 }
