@@ -16,7 +16,7 @@ import javax.servlet.http.HttpSession;
 
 @Controller
 @RequestMapping("/user")
-@Api(tags = "该类用于后台操作")
+@Api(tags = "该类实现所有关于user的功能")
 public class UserController {
 
     @Autowired
@@ -78,6 +78,8 @@ public class UserController {
         boolean result = userService.isLogin(user);
 
         if (result) {
+            //将email存入session
+            session.setAttribute("email",email);
             return "success";
         } else {
             return "fail";
@@ -129,10 +131,60 @@ public class UserController {
     })
     public String resetPassword(String password, HttpSession session) {
         String email = (String) session.getAttribute("EMAIL");
+        session.removeAttribute("EMAIL");
 
         User user = new User();
         user.setEmail(email);
         user.setPassword(password);
+
+        userService.updatePasswordByEmail(user);
+        return "success";
+    }
+
+    /**
+     * 修改密码流程：
+     *      1.前端页面输入旧密码，blur事件触发ajax方法，验证旧密码
+     *      2.输入两次新密码，页面完成相同验证，点击修改按钮，后台完成数据库更新
+     */
+
+    /**
+     * 验证旧密码
+     * @param oldPassword 前端页面输入的旧密码
+     * @return 验证通过返回success
+     */
+    @RequestMapping(value = "validateOldPassword",method = RequestMethod.POST)
+    @ResponseBody
+    @ApiOperation(value = "修改密码时，验证旧密码是否正确")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "oldPassword",value = "旧密码",required = true,dataType = "String")
+    })
+    public String validateOldPassword(String oldPassword,HttpSession session) {
+        String email = (String) session.getAttribute("email");
+
+        User user = new User();
+        user.setEmail(email);
+        user.setPassword(oldPassword);
+        boolean result = userService.isLogin(user);
+
+        if (result) {
+            return "success";
+        } else {
+            return "fail";
+        }
+    }
+
+    @RequestMapping(value = "setNewPassword",method = RequestMethod.POST)
+    @ResponseBody
+    @ApiOperation(value = "修改密码，设置新密码")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "newPassword",value = "新密码",required = true,dataType = "String")
+    })
+    public String setNewPassword(String newPassword,HttpSession session) {
+        String email = (String) session.getAttribute("email");
+
+        User user = new User();
+        user.setEmail(email);
+        user.setPassword(newPassword);
 
         userService.updatePasswordByEmail(user);
         return "success";
