@@ -34,7 +34,7 @@ public class AdminController {
 
         User user = new User();
         user.setUserName(email);
-        user.setPassWord(password);
+        user.setPassword(password);
 
         boolean result = adminService.isLogin(user);
 
