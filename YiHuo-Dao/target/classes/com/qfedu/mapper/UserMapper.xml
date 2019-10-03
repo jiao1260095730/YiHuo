@@ -20,6 +20,6 @@
     </insert>
 
     <select id="selectUserByUserNameAndPassword" parameterType="user" resultType="int">
-
+        select count(1) from user where email=#{email} and password=#{password}
     </select>
 </mapper>
