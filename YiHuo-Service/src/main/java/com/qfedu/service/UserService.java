@@ -11,4 +11,8 @@ public interface UserService {
     boolean isLogin(User user);
 
     int selectVerify(String email);
+
+    void updatePasswordByEmail(User user);
+
+    boolean selectUserByValidateNumAndEmail(User user);
 }

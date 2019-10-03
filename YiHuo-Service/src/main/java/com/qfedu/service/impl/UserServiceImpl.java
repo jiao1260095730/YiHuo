@@ -36,4 +36,13 @@ public class UserServiceImpl implements UserService {
     public int selectVerify(String email) {
         return userMapper.selectVerify(email);
     }
+
+    public void updatePasswordByEmail(User user) {
+        userMapper.updatePasswordByEmail(user);
+    }
+
+    public boolean selectUserByValidateNumAndEmail(User user) {
+        int result = userMapper.selectUserByValidateNumAndEmail(user);
+        return result == 1 ? true : false;
+    }
 }

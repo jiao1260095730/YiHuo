@@ -8,6 +8,10 @@
         update user set password=#{password} where email = #{email} and validate_num=#{validateNum}
     </update>
 
+    <update id="updatePasswordByEmail" parameterType="user">
+        update user set password=#{password} where email = #{email}
+    </update>
+
     <insert id="insertValidateNum" parameterType="user">
         insert into user (email, validate_num) values (#{email}, #{validateNum})
     </insert>
@@ -18,5 +22,9 @@
 
     <select id="selectVerify" parameterType="user" resultType="int">
         select count(1) from user where email = #{email}
+    </select>
+
+    <select id="selectUserByValidateNumAndEmail" resultType="java.lang.Integer" parameterType="user">
+        select count(1) from user where email = #{email} and validate_num = #{validateNum}
     </select>
 </mapper>

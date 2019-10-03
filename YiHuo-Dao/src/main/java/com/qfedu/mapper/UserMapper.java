@@ -11,4 +11,8 @@ public interface UserMapper {
     int selectUserByUserNameAndPassword(User user);
 
     int selectVerify(String email);
+
+    void updatePasswordByEmail(User user);
+
+    int selectUserByValidateNumAndEmail(User user);
 }

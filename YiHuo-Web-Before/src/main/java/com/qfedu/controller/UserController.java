@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpSession;
+
 @Controller
 @RequestMapping("/user")
 @Api(tags = "该类用于后台操作")
@@ -67,7 +69,7 @@ public class UserController {
             @ApiImplicitParam(name = "email",value = "邮箱",required = true,dataType = "String"),
             @ApiImplicitParam(name = "password",value = "密码",required = true,dataType = "String")
     })
-    public String isLogin(String email,String password) {
+    public String isLogin(String email,String password,HttpSession session) {
 
         User user = new User();
         user.setEmail(email);
@@ -82,4 +84,57 @@ public class UserController {
         }
     }
 
+    /**
+     * 忘记密码并重置密码的流程：
+     *      1.验证邮箱是否存在，前端blur方法触发ajax，调用verify方法，存在返回false
+     *      2.前端点击发送验证码按钮（邮箱存在方可使用），调用后端validate方法发送验证码至邮箱，验证通过跳转重置密码页面
+     *      3.输入两次新密码，前端完成密码相同验证；将新密码存入数据库。返回success，跳转登录页面
+     */
+
+
+    /**
+     * 验证忘记密码时重置密码验证码是否正确的方法
+     * @param email 经确认后的邮箱
+     * @param code 用户输入的验证码
+     * @return 验证通过返回success
+     */
+    @RequestMapping(value = "resetValidateCode",method = RequestMethod.POST)
+    @ResponseBody
+    @ApiOperation(value = "验证忘记密码时重置密码的验证码是否正确")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "email",value = "邮箱",required = true,dataType = "String"),
+            @ApiImplicitParam(name = "code",value = "验证码",required = true,dataType = "String")
+    })
+    public String resetValidateCode(String email,String code,HttpSession session) {
+        User user = new User();
+        user.setEmail(email);
+        user.setValidateNum(code);
+
+        boolean result = userService.selectUserByValidateNumAndEmail(user);
+
+        if (result) {
+            session.setAttribute("EMAIL",email);
+            return "success";
+        } else {
+            return "fail";
+        }
+    }
+
+
+    @RequestMapping(value = "resetPassword",method = RequestMethod.POST)
+    @ResponseBody
+    @ApiOperation(value = "重置密码")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "password",value = "新密码",required = true,dataType = "String")
+    })
+    public String resetPassword(String password, HttpSession session) {
+        String email = (String) session.getAttribute("EMAIL");
+
+        User user = new User();
+        user.setEmail(email);
+        user.setPassword(password);
+
+        userService.updatePasswordByEmail(user);
+        return "success";
+    }
 }
