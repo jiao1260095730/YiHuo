@@ -27,11 +27,11 @@
         </property>
     </bean>
 
-   <!-- <bean class="com.qfedu.controller.MySwaggerConfig" />
+    <bean class="com.qfedu.controller.MySwaggerConfig" />
     <mvc:resources mapping="swagger-ui.html" location="classpath:/META-INF/resources/" />
-    <mvc:resources mapping="/webjars/**" location="classpath:/META-INF/resources/webjars/" />
+    <mvc:resources mapping="/webjars/**" location="classpath:/META-INF/resources/webjars/"/>
 
-    <bean id="myExceptionHandler" class="com.qfedu.exception.MyExceptionHandler"/>-->
+    <!--<bean id="myExceptionHandler" class="com.qfedu.exception.MyExceptionHandler"/>-->
 
     <!--<mvc:interceptors>
         <mvc:interceptor>

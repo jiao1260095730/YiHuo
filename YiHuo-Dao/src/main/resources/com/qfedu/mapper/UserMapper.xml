@@ -4,9 +4,9 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.qfedu.mapper.UserMapper">
 
-    <select id="register" parameterType="user" resultType="int">
-        select * from user where phone = #{email} and validate_num = #{validateNum}
-    </select>
+    <update id="register" parameterType="user">
+        update user set password=#{password} where email = #{email} and validate_num=#{validateNum}
+    </update>
 
     <insert id="insertValidateNum" parameterType="user">
         insert into user (email, validate_num) values (#{email}, #{validateNum})
