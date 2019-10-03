@@ -4,8 +4,6 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.qfedu.mapper.UserMapper">
 
-
-
     <select id="register" parameterType="user" resultType="int">
         select * from user where phone = #{phone} and validate_num = #{validateNum}
     </select>
