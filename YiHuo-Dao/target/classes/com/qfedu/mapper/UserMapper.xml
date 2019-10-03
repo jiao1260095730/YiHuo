@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qfedu.mapper.UserMapper">
+
+    <update id="register" parameterType="user">
+        update user set password=#{password} where email = #{email} and validate_num=#{validateNum}
+    </update>
+
+    <insert id="insertValidateNum" parameterType="user">
+        insert into user (email, validate_num) values (#{email}, #{validateNum})
+    </insert>
+
+</mapper>
