@@ -6,13 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf02f2aa-9eee-4697-8d6e-8813543b1281" name="Default Changelist" comment="周立雄&#10;简单实现登录功能（邮箱+密码）未添加session">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="bf02f2aa-9eee-4697-8d6e-8813543b1281" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YiHuo-Dao/src/main/java/com/qfedu/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/YiHuo-Dao/src/main/java/com/qfedu/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YiHuo-Dao/src/main/resources/com/qfedu/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/YiHuo-Dao/src/main/resources/com/qfedu/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YiHuo-Utils/target/classes/com/qfedu/utils/CreateValidate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YiHuo-Web-Before/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/YiHuo-Web-Before/src/main/resources/spring/springmvc.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            <state relative-caret-position="576">
+              <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YiHuo-Dao/src/main/resources/dbconfig/db.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="81">
@@ -59,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/resources/spring/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
+            <state relative-caret-position="1269">
               <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
@@ -111,8 +106,8 @@
         <option value="$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/MySwaggerConfig.java" />
         <option value="$PROJECT_DIR$/YiHuo-Web-Before/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/YiHuo-Dao/src/main/resources/com/qfedu/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/YiHuo-Dao/src/main/resources/dbconfig/db.properties" />
+        <option value="$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/AdminController.java" />
       </list>
     </option>
   </component>
@@ -654,17 +649,24 @@
       <option name="project" value="LOCAL" />
       <updated>1570069703118</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="周立雄&#10;简单实现登录功能（邮箱+密码）未添加session">
+      <created>1570082098611</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570082098611</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13052000" />
+    <option name="totallyTimeSpent" value="14076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -890,13 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/MySwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -927,13 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Dao/src/main/resources/com/qfedu/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
@@ -944,13 +932,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/AdminController.java">
+    <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/resources/spring/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1269">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YiHuo-Dao/src/main/resources/com/qfedu/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -958,6 +950,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YiHuo-Web-Before/src/main/java/com/qfedu/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
