@@ -21,7 +21,7 @@ public class UserController {
     UserService userService;
 
     @ApiOperation(value = "该方法是用户注册时发送验证码并保存至数据库")
-    @RequestMapping("/validate")
+    @RequestMapping(value = "/validate", method = RequestMethod.POST)
     @ResponseBody
     public String validate(String email) {
         int count = userService.validate(email);
@@ -32,8 +32,12 @@ public class UserController {
     }
 
     @ApiOperation(value =  "该方法用于用户使用邮箱注册，输入邮箱，密码，验证码")
-    @RequestMapping("/register")
+    @RequestMapping(value = "/register", method = RequestMethod.POST)
     @ResponseBody
+    @ApiImplicitParams(
+            {@ApiImplicitParam(name = "email", value = "邮箱", required = true, dataType = "String"),
+             @ApiImplicitParam(name = "password", value = "密码", required = true, dataType = "String")}
+    )
     public String register(User user) {
         int count = userService.register(user);
 
@@ -42,7 +46,6 @@ public class UserController {
         }
         return "fail";
     }
-
 
     @RequestMapping(value = "isLogin",method = RequestMethod.POST)
     @ResponseBody
@@ -54,8 +57,8 @@ public class UserController {
     public String isLogin(String email,String password) {
 
         User user = new User();
-        user.setEmail(email);
-        user.setPassWord(password);
+        user.setUserName(email);
+        user.setPassword(password);
 
         boolean result = userService.isLogin(user);
 

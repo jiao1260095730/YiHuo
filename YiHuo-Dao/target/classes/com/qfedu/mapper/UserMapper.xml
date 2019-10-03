@@ -19,4 +19,7 @@
         insert into user (email, validate_num) values (#{email}, #{validateNum})
     </insert>
 
+    <select id="selectUserByUserNameAndPassword" parameterType="user" resultType="int">
+
+    </select>
 </mapper>
