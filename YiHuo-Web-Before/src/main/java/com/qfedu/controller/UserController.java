@@ -16,8 +16,8 @@ public class UserController {
 
     @RequestMapping("/validate")
     @ResponseBody
-    public String validate(String phone) {
-        int count = userService.validate(phone);
+    public String validate(String email) {
+        int count = userService.validate(email);
         if (count > 0) {
             return "success";
         }

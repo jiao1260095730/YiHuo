@@ -5,11 +5,11 @@
 <mapper namespace="com.qfedu.mapper.UserMapper">
 
     <select id="register" parameterType="user" resultType="int">
-        select * from user where phone = #{phone} and validate_num = #{validateNum}
+        select * from user where phone = #{email} and validate_num = #{validateNum}
     </select>
 
     <insert id="insertValidateNum" parameterType="user">
-        insert into user (phone, validate_num) values (#{phone}, #{validateNum})
+        insert into user (email, validate_num) values (#{email}, #{validateNum})
     </insert>
 
 </mapper>

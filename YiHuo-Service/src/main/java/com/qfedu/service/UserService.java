@@ -6,5 +6,5 @@ public interface UserService {
 
     int register(User user);
 
-    int validate(String phone);
+    int validate(String email);
 }
