@@ -2,7 +2,10 @@ package com.qfedu.controller;
 
 import com.qfedu.entry.User;
 import com.qfedu.service.UserService;
+import com.qfedu.utils.InfoUtils;
 import com.qfedu.utils.JsonUtils;
+
+import com.qfedu.utils.UUIDUtils;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
@@ -13,8 +16,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpSession;
+import java.io.File;
 import java.util.List;
 
 @Controller
@@ -205,6 +210,7 @@ public class UserController {
     @ResponseBody
     @ApiOperation(value = "在设置中完善个人资料")
     @ApiImplicitParams({
+            @ApiImplicitParam(name = "headImgUrl",value = "头像",required = true,dataType = "String"),
             @ApiImplicitParam(name = "userName",value = "昵称",required = true,dataType = "String"),
             @ApiImplicitParam(name = "gender",value = "性别",required = true,dataType = "String"),
             @ApiImplicitParam(name = "birthday",value = "生日",required = true,dataType = "String"),
@@ -212,7 +218,8 @@ public class UserController {
             @ApiImplicitParam(name = "profession",value = "职业",required = true,dataType = "String"),
             @ApiImplicitParam(name = "trade",value = "行业",required = true,dataType = "String"),
             @ApiImplicitParam(name = "education",value = "学历",required = true,dataType = "String"),
-            @ApiImplicitParam(name = "email",value = "邮箱",required = true,dataType = "String")
+
+
 
     })
 
@@ -225,7 +232,6 @@ public class UserController {
 
 
     }
-
     @RequestMapping(value = "/showUser",method = RequestMethod.POST)
     @ResponseBody
     @ApiOperation(value = "根据用户的email展示用户的所有信息")
@@ -236,4 +242,6 @@ public class UserController {
 
         return JsonUtils.objectToJson(user);
     }
+
+
 }
