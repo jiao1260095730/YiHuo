@@ -2,6 +2,7 @@ package com.qfedu.controller;
 
 import com.qfedu.entry.User;
 import com.qfedu.service.UserService;
+import com.qfedu.utils.JsonUtils;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
@@ -198,6 +199,7 @@ public class UserController {
         String email = (String) session.getAttribute("email");
         User user = userService.selectShowUserByEmail(email);
         model.addAttribute("user",user);
-        return "success";
+
+        return JsonUtils.objectToJson(user);
     }
 }
