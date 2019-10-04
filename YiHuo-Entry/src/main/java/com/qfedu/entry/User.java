@@ -3,7 +3,6 @@ package com.qfedu.entry;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.xml.soap.SAAJResult;
 
 @Getter
 @Setter

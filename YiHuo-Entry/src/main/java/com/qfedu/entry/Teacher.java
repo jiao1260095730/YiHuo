@@ -1,5 +1,10 @@
 package com.qfedu.entry;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+@Getter
 public class Teacher {
     private Integer id;
 
