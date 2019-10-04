@@ -48,7 +48,7 @@ public class UserServiceImpl implements UserService {
         return result == 1 ? true : false;
     }
 
-    public List<User> selectShowUserByEmail(String email) {
+    public User selectShowUserByEmail(String email) {
         return userMapper.selectShowUserByEmail(email);
     }
 }

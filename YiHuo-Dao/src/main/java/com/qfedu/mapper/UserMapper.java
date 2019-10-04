@@ -18,5 +18,5 @@ public interface UserMapper {
 
     int selectUserByValidateNumAndEmail(User user);
 
-    List<User> selectShowUserByEmail(String email);
+    User selectShowUserByEmail(String email);
 }

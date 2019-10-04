@@ -18,5 +18,5 @@ public interface UserService {
 
     boolean selectUserByValidateNumAndEmail(User user);
 
-    List<User> selectShowUserByEmail(String email);
+    User selectShowUserByEmail(String email);
 }

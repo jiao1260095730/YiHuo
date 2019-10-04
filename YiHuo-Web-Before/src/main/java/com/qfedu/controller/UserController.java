@@ -196,8 +196,8 @@ public class UserController {
     @ApiOperation(value = "根据用户的email展示用户的所有信息")
     public String showUser(HttpSession session, Model model) {
         String email = (String) session.getAttribute("email");
-        List<User> userList = userService.selectShowUserByEmail(email);
-        model.addAttribute("userList",userList);
+        User user = userService.selectShowUserByEmail(email);
+        model.addAttribute("user",user);
         return "success";
     }
 }
