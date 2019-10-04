@@ -22,9 +22,9 @@ public class Video {
 
     private Integer teacherId;
 
-    private Integer courseId;
+    private String typeId;
 
-    private String labelId;
+    private Integer labelId;
 
     private String desc;
 }
