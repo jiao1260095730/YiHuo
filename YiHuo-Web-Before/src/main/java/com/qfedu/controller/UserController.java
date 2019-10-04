@@ -8,11 +8,13 @@ import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
+import java.util.List;
 
 @Controller
 @RequestMapping("/user")
@@ -30,9 +32,9 @@ public class UserController {
         int count = userService.selectVerify(email);
 
         if (count > 0) {
-            return "fail";
+            return "success";
         }
-        return "success";
+        return "fail";
     }
 
     @ApiOperation(value = "该方法是用户注册时发送验证码并保存至数据库")
@@ -92,7 +94,6 @@ public class UserController {
      *      2.前端点击发送验证码按钮（邮箱存在方可使用），调用后端validate方法发送验证码至邮箱，验证通过跳转重置密码页面
      *      3.输入两次新密码，前端完成密码相同验证；将新密码存入数据库。返回success，跳转登录页面
      */
-
 
     /**
      * 验证忘记密码时重置密码验证码是否正确的方法
@@ -187,6 +188,16 @@ public class UserController {
         user.setPassword(newPassword);
 
         userService.updatePasswordByEmail(user);
+        return "success";
+    }
+
+    @RequestMapping(value = "/showUser",method = RequestMethod.POST)
+    @ResponseBody
+    @ApiOperation(value = "根据用户的email展示用户的所有信息")
+    public String showUser(HttpSession session, Model model) {
+        String email = (String) session.getAttribute("email");
+        List<User> userList = userService.selectShowUserByEmail(email);
+        model.addAttribute("userList",userList);
         return "success";
     }
 }

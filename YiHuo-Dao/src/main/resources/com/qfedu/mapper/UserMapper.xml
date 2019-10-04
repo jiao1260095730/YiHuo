@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.qfedu.mapper.UserMapper">
-    <resultMap id="BaseResultMap" type="com.qfedu.entry.User" >
+    <resultMap id="userMap" type="user" >
         <id column="id" property="id" jdbcType="INTEGER" />
         <result column="email" property="email" jdbcType="VARCHAR" />
         <result column="user_name" property="userName" jdbcType="VARCHAR" />
@@ -47,5 +47,9 @@
 
     <select id="selectUserByValidateNumAndEmail" resultType="java.lang.Integer" parameterType="user">
         select count(1) from user where email = #{email} and validate_num = #{validateNum}
+    </select>
+
+    <select id="selectShowUserByEmail" parameterType="user" resultMap="userMap">
+        select * from user where email = #{email}
     </select>
 </mapper>

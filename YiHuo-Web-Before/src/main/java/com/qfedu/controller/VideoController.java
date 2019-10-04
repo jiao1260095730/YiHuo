@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
@@ -21,12 +22,14 @@ public class VideoController {
     VideoService videoService;
 
 
+
+    @ResponseBody
     @RequestMapping(value = "/showList",method = RequestMethod.POST)
     @ApiOperation(value = "该方法用来展示视频列表")
     public String videoList(Model model) {
         List<Video> videoList = videoService.selectAllVideo();
         model.addAttribute("videoList", videoList);
-        return "";
+        return "success";
     }
 
 }

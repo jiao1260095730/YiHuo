@@ -2,6 +2,8 @@ package com.qfedu.service;
 
 import com.qfedu.entry.User;
 
+import java.util.List;
+
 public interface UserService {
 
     int register(User user);
@@ -15,4 +17,6 @@ public interface UserService {
     void updatePasswordByEmail(User user);
 
     boolean selectUserByValidateNumAndEmail(User user);
+
+    List<User> selectShowUserByEmail(String email);
 }

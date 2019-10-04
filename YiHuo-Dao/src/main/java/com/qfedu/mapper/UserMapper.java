@@ -2,6 +2,8 @@ package com.qfedu.mapper;
 
 import com.qfedu.entry.User;
 
+import java.util.List;
+
 public interface UserMapper {
 
     int register(User user);
@@ -15,4 +17,6 @@ public interface UserMapper {
     void updatePasswordByEmail(User user);
 
     int selectUserByValidateNumAndEmail(User user);
+
+    List<User> selectShowUserByEmail(String email);
 }

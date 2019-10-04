@@ -7,6 +7,8 @@ import com.qfedu.utils.MailUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class UserServiceImpl implements UserService {
 
@@ -44,5 +46,9 @@ public class UserServiceImpl implements UserService {
     public boolean selectUserByValidateNumAndEmail(User user) {
         int result = userMapper.selectUserByValidateNumAndEmail(user);
         return result == 1 ? true : false;
+    }
+
+    public List<User> selectShowUserByEmail(String email) {
+        return userMapper.selectShowUserByEmail(email);
     }
 }
