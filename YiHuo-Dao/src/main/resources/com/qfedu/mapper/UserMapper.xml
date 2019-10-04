@@ -48,6 +48,18 @@
     <select id="selectUserByValidateNumAndEmail" resultType="java.lang.Integer" parameterType="user">
         select count(1) from user where email = #{email} and validate_num = #{validateNum}
     </select>
+    <update id="updateInformation" parameterType="com.qfedu.entry.User" >
+    update user
+    set
+      user_name = #{userName,jdbcType=VARCHAR},
+      gender = #{gender,jdbcType=VARCHAR},
+      birthday = #{birthday,jdbcType=VARCHAR},
+      address = #{address,jdbcType=VARCHAR},
+      profession = #{profession,jdbcType=VARCHAR},
+      trade = #{trade,jdbcType=VARCHAR},
+      education = #{education,jdbcType=VARCHAR}
+    where email = #{email,jdbcType=VARCHAR}
+  </update>
 
     <select id="selectShowUserByEmail" parameterType="user" resultMap="userMap">
         select * from user where email = #{email}

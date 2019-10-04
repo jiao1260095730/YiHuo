@@ -96,6 +96,7 @@ public class UserController {
      *      3.输入两次新密码，前端完成密码相同验证；将新密码存入数据库。返回success，跳转登录页面
      */
 
+
     /**
      * 验证忘记密码时重置密码验证码是否正确的方法
      * @param email 经确认后的邮箱
@@ -190,6 +191,39 @@ public class UserController {
 
         userService.updatePasswordByEmail(user);
         return "success";
+    }
+
+    /**
+     *
+     * 完善个人资料
+     * @param session 获取邮箱
+     * @param model
+     * @param user 实体User
+     * @return 返回成功或失败
+     */
+    @RequestMapping(value = "updateInformation",method = RequestMethod.POST)
+    @ResponseBody
+    @ApiOperation(value = "在设置中完善个人资料")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "userName",value = "昵称",required = true,dataType = "String"),
+            @ApiImplicitParam(name = "gender",value = "性别",required = true,dataType = "String"),
+            @ApiImplicitParam(name = "birthday",value = "生日",required = true,dataType = "String"),
+            @ApiImplicitParam(name = "address",value = "地区",required = true,dataType = "String"),
+            @ApiImplicitParam(name = "profession",value = "职业",required = true,dataType = "String"),
+            @ApiImplicitParam(name = "trade",value = "行业",required = true,dataType = "String"),
+            @ApiImplicitParam(name = "education",value = "学历",required = true,dataType = "String"),
+            @ApiImplicitParam(name = "email",value = "邮箱",required = true,dataType = "String")
+
+    })
+
+    public String updateInformation(HttpSession session,Model model,User user){
+        user.setEmail((String) session.getAttribute("email"));
+        int count = userService.updateInformation(user);
+        System.out.println(count);
+        return "success";
+
+
+
     }
 
     @RequestMapping(value = "/showUser",method = RequestMethod.POST)

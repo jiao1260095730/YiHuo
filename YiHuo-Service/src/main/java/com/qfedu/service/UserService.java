@@ -19,4 +19,6 @@ public interface UserService {
     boolean selectUserByValidateNumAndEmail(User user);
 
     User selectShowUserByEmail(String email);
+
+    int updateInformation(User user);
 }

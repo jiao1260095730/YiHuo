@@ -51,4 +51,8 @@ public class UserServiceImpl implements UserService {
     public User selectShowUserByEmail(String email) {
         return userMapper.selectShowUserByEmail(email);
     }
+
+    public int updateInformation(User user) {
+       return userMapper.updateInformation(user);
+    }
 }
